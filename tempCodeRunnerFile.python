@@ -1,0 +1,21 @@
+
+
+class dog:
+    def __init__(self, name, age, breed):
+        self.name = name
+        self.age = age
+        self.breed = breed
+        
+    def bark(self):
+        print("Woof!")
+        
+    def get_name(self):
+        return self.name
+    
+    
+
+
+manuel=dog("Manuel", 5, "German Shepherd")
+
+print(manuel.get_name())
+manuel.bark()
